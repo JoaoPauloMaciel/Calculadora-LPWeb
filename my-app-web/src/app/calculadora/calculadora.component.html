@@ -1,0 +1,37 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<meta charset="utf-8">
+<link href="/app.component.css" rel="stylesheet">
+
+<div style="text-align:center">
+  <h1>Calculadora!</h1>
+  <div id="calculadora">
+    <h2 id="tela">
+      {{tela}}
+    </h2>
+    <div id="botoes">
+      <br>
+      <button class="btn btn-defaut" (click)="butao(1)">1</button>
+      <button class="btn btn-defaut" (click)="butao(2)">2</button>
+      <button class="btn btn-defaut" (click)="butao(3)">3</button>
+      <button class="btn btn-defaut" (click)="subtracao()"> - </button>
+      <br>
+      <button class="btn btn-defaut" (click)="butao(4)">4</button>
+      <button class="btn btn-defaut" (click)="butao(5)">5</button>
+      <button class="btn btn-defaut" (click)="butao(6)">6</button>
+      <button class="btn btn-defaut" (click)="adcao()"> + </button>
+      <br>
+      <button class="btn btn-defaut" (click)="butao(7)">7</button>
+      <button class="btn btn-defaut" (click)="butao(8)">8</button>
+      <button class="btn btn-defaut" (click)="butao(9)">9</button>
+      <button class="btn btn-defaut" (click)="divisao()">/</button>
+      
+      <br>
+      <button class="btn btn-defaut" (click)="butao(0)">0</button>
+      <button class="btn btn-defaut" (click)="limpar()"> CE </button>
+      <button class="btn btn-defaut" (click)="resolucao()"> = </button>
+      <button class="btn btn-defaut" (click)="multiplicacao()"> x </button>
+    </div>
+
+  </div>
+
+</div>
